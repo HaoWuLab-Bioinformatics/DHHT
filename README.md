@@ -1,17 +1,17 @@
-###### \# DHHT
+# DHHT
 
 DHHT: A Dynamic Hyperbolic Hypergraph Transformer for Multimodal Graph Representation Learning
 
 
 
-###### \## The framework of DHHT
+## The framework of DHHT
 
-!\[image](Hypformer/model.png)
+![image](Hypformer/model.png)
 
 
-\## Overview
+## Overview
 
-The folder "\*\*data\*\*" contains all data used.  
+The folder "data" contains all data used.  
 
 The folder "Hypformer" contains all the framework code. 
 
@@ -21,7 +21,7 @@ The folder "medium" contains the code for running on medium- and small-scale dat
 
 
 
-\## Dependency
+## Dependency
 
 Mainly used libraries:  
 
