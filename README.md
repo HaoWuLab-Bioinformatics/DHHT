@@ -6,7 +6,7 @@ DHHT: A Dynamic Hyperbolic Hypergraph Transformer for Multimodal Graph Represent
 
 ###### \## The framework of DHHT
 
-!\[image](https://github.com/HaoWuLab-Bioinformatics/DHHT/blob/master/model.png)
+!\[image](https://github.com/HaoWuLab-Bioinformatics/DHHT/blob/8a963401f820f79987be12e2cf99ccf73974fa36/model.png)
 
 
 
