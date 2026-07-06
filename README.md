@@ -4,7 +4,9 @@ DHHT is a PyTorch implementation of **DHHT: Dynamic Hyperbolic Hypergraph Transf
 
 Overview
 
-!\[DHHT Framework](https://raw.githubusercontent.com/HaoWuLab-Bioinformatics/DHHT/master/framework.png)
+!\[DHHT Framework](./framework.png)
+
+
 
 ## Installation
 
