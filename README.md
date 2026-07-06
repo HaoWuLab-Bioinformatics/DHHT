@@ -4,7 +4,7 @@ DHHT is a PyTorch implementation of **DHHT: Dynamic Hyperbolic Hypergraph Transf
 
 Overview
 
-!\[Dysformer Framework](https://github.com/HaoWuLab-Bioinformatics/DHHT/blob/master/framework.png)
+!\[DHHT Framework](https://raw.githubusercontent.com/HaoWuLab-Bioinformatics/DHHT/master/framework.png)
 
 ## Installation
 
@@ -61,7 +61,7 @@ data/zijian/jiaolvyiyu/
 ### Medium-scale experiments
 
 ```bash
-python yunxing\\\\\\\_medium.py
+python yunxing\_medium.py
 ```
 
 
@@ -69,7 +69,7 @@ python yunxing\\\\\\\_medium.py
 ### Large-scale experiments
 
 ```
-python yunxing\\\\\\\_large.py
+python yunxing\_large.py
 ```
 
 ## License
