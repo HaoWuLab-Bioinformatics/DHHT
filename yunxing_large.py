@@ -5,19 +5,19 @@ CUDA_LAUNCH_BLOCKING=1
 
 def run_experiment():
     # 显式指定 Conda 解释器
-    python_executable = "/home/mzy/anaconda3/envs/pytorch/bin/python3.10"
+    python_executable = "/home/user012/anaconda3/envs/pytorch/bin/python3.9"
 
     # 设置工作目录到 medium
-    os.chdir("/home/mzy/experments/Desktop/pythonProjectexperments/hyperbolic-transformer-master/large")
+    os.chdir("/home/user012/experments/Desktop/pythonProjectexperments/hyperbolic-transformer-master/large")
 
     command = [
-        python_executable, "main.py",
-        "--dataset", "ogbn-products",
+        python_executable, "main_last.py",
+        "--dataset", "ogbn-arxiv",
         "--method", "DHHT",
         "--lr", "0.01",
         "--weight_decay", "0.0",
         "--hidden_channels", "64",
-        "--epochs", "1500",
+        "--epochs", "500",
         "--use_graph", "1",
         "--gnn_dropout", "0.",
         "--gnn_use_bn", "1",

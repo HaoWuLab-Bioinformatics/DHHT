@@ -1,5 +1,5 @@
 
-from dhht import DHHT
+from DHHT_main import DHHT
 
 def parse_method(args, c, d):
 

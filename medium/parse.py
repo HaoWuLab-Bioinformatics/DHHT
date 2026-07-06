@@ -1,4 +1,4 @@
-from dhht import DHHT
+from DHHT_new2 import DHHT
 
 
 def parse_method(args, device):
