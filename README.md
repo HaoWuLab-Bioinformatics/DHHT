@@ -1,49 +1,78 @@
 # DHHT
 
-DHHT: A Dynamic Hyperbolic Hypergraph Transformer for Multimodal Graph Representation Learning
+DHHT is a PyTorch implementation of **DHHT: Dynamic Hyperbolic Hypergraph Transformer for Graph Representation Learning**
+
+Overview
+
+!\[Dysformer Framework](https://github.com/HaoWuLab-Bioinformatics/Dysformer/blob/main/framework.png)
+
+## Installation
+
+### 1\. Clone the repository
+
+```bash
+git clone https://github.com/HaoWuLab-Bioinformatics/DHHT.git
+cd DHHT
+```
+
+### 2\. Create a virtual environment
+
+Using Conda:
+
+```bash
+conda create -n DHHT python=3.9
+conda activate DHHT
+```
+
+### 3\. Install dependencies
+
+Install PyTorch according to your CUDA version from the official PyTorch website, then install the remaining packages:
+
+```bash
+pip install torch torchvision torchaudio
+pip install torch-geometric geoopt numpy scipy pandas scikit-learn openpyxl ogb tqdm
+```
+
+The main dependencies include:
+
+```text
+Python
+PyTorch
+PyTorch Geometric
+Geoopt
+NumPy
+SciPy
+Pandas
+Scikit-learn
+OpenPyXL
+OGB
+```
+
+## Data Preparation
+
+The repository contains adolescent health data under:
+
+```text
+data/zijian/jiaolvyiyu/
+```
+
+## Usage
+
+### Medium-scale experiments
+
+```bash
+python yunxing\_medium.py
+```
 
 
 
-## The framework of DHHT
+### Large-scale experiments
 
-![image](Hypformer/model.png)
+```
+python yunxing\_large.py
+```
 
+## License
 
-## Overview
-
-The folder "data" contains all data used.  
-
-The folder "Hypformer" contains all the framework code. 
-
-The folder "large" contains the code for running on large-scale datasets. 
-
-The folder "medium" contains the code for running on medium- and small-scale datasets.
-
-
-
-## Dependency
-
-Mainly used libraries:  
-
-Python 3.9.15  
-
-numpy==1.16.2  
-
-scikit-learn==0.20.3  
-
-torch==1.1.0  
-
-torchvision==0.2.2  
-
-networkx==2.2  
-
-
-
-See "\*\*requirements.txt"\*\* for all detailed libraries.  
-
-Other developers can use the following command to install the dependencies contained in "\*\*requirements.txt"\*\*:
-
-`pip install -r requirements.txt`  
-
-
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
